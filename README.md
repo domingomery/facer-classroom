@@ -139,7 +139,7 @@ Check definitions in lines 12-29 of main.py:
 `326  -                    Name Last_Name_10  :   4/5 =  80.00%`
 
 
-![Detection Image](https://github.com/domingomery/facer_classroom/blob/master/result.png)
+![Detection Image](https://github.com/domingomery/facer-classroom/blob/master/result.png)
 
 References:
 - Mery, D.; Mackenney, I.; and Villalobos, E. [Student Attendance System in Crowded Classrooms using a Smartphone Camera](http://dmery.sitios.ing.uc.cl/Prints/Conferences/International/2019-WACV.pdf). In 2019 IEEE Winter Conference on Applications of Computer Vision (WACV2017), 2019.
