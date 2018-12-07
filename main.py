@@ -5,19 +5,15 @@
 # http://dmery.ing.puc.cl
 
 import numpy as np
-from facer import Facer
-from facer import fr_str, num2fixstr, dirfiles, extract_rows, vector_distances, im_crop
-from facer import im_concatenate, imshow
+from utils import Facer
+from utils import fr_str, num2fixstr, dirfiles, extract_rows, vector_distances, im_crop
+from utils import im_concatenate, imshow
 
 # definitions
-#IMG-2018 - Course: Image Proccesing at UC, 2018
-# img_path_sessions = '/Users/domingomery/Dropbox/Mingo/Matlab/facer/test/img2018/'
 img_path_sessions = 'data/sessions/'
 id_subjects       = [297, 300, 302, 305, 308, 310, 312, 314, 317, 319, 321, 323, 325, 327, 299, 301, 304, 306, 309, 311, 313, 316, 318, 320, 322, 324, 326]  # id of the query persons for img2018
 id_sessions       = range( 1,6)     # id of the sessions
 csv_list          = 'student_list.csv'  # ID and names of the students
-
-# img_path_enroll   = '/Users/domingomery/Dropbox/Mingo/Matlab/facer/images/'
 img_path_enroll   = 'data/enroll/'
 fd_method         = 0               # face detection (0:HOG, 1: CNN)
 fr_method         = 2               # face recognition (0: Dlib, 1: Dlib+, 2: FaceNet)
