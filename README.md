@@ -54,6 +54,27 @@ Check definitions in lines 12-29 of main.py:
 - enrolled images are in data/enroll
 - session images are in data/sessions
 
+
+Check the parameters of the demo code:
+
+1) FIRST TIME:
+- to extract and save the features of sessions and enrolled subjects, set in definition parameters of main.py:
+extract_desc      = [1, 1]
+
+... it takes 5-10 minutes to extract and save the descriptors. After this step, files .npy are created in sessions directory and enrollment directory.
+
+2) SECOND TIME:
+- when features are already extracted. Thus, you can , set in definition parameters of main.py: 
+extract_desc      = [0, 0]
+
+The obtained results are the same results obtained in FIRST TIME.
+
+3) THIRD TIME:
+If you want to obtain only the attendance record without displaying the detected faces, , set in definition parameters of main.py:
+show_img          = 0 
+
+This is very fast!
+
 # 7. Output
 
 `[facer] : ----------------------------------------------------------------`
