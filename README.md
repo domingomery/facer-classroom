@@ -3,6 +3,8 @@ Student attendance system in classrooms: The idea of this code is to verify is t
 
 ![Paper example](https://github.com/domingomery/facer-classroom/blob/master/example.png)
 
+_Results of our Student Attendance System [1]. In this example of 25 sessions, the selected student was not present in 5 sessions (see black squares in the right image), i.e, the attendance for him is 20/25 = 80.0%. In the middle image, the session of March 29th is shown, where the student was recognized in the last row of the classroom (see zoom of the red square in the left panel). In these experiments, the images were acquired using a smartphone camera._
+
 
 # 1. What to install before
 - Install Homebrew
@@ -107,7 +109,7 @@ This is very fast!
 ![Detection Image](https://github.com/domingomery/facer-classroom/blob/master/result.png)
 
 References:
-- Mery, D.; Mackenney, I.; and Villalobos, E. [Student Attendance System in Crowded Classrooms using a Smartphone Camera](http://dmery.sitios.ing.uc.cl/Prints/Conferences/International/2019-WACV.pdf). In 2019 IEEE Winter Conference on Applications of Computer Vision (WACV2017), 2019.
+- [1] Mery, D.; Mackenney, I.; and Villalobos, E. [Student Attendance System in Crowded Classrooms using a Smartphone Camera](http://dmery.sitios.ing.uc.cl/Prints/Conferences/International/2019-WACV.pdf). In 2019 IEEE Winter Conference on Applications of Computer Vision (WACV2017), 2019.
 
 Note: 
 The students of these pictures gave their permission to be part of this research. The pictures can be used free of charge, for research and educational purposes only. Redistribution and commercial use is prohibited.
