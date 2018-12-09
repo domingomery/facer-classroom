@@ -1,6 +1,9 @@
 # facer-classroom
 Student attendance system in classrooms: The idea of this code is to verify is the subjects that are enrolled are present in the session images. In this simple example, there are 27 students in 5 sessions. The result is shown in [result.png](https://github.com/domingomery/facer-classroom/blob/master/result.png).
 
+![Paper example](https://github.com/domingomery/facer-classroom/blob/master/example.png)
+
+
 # 1. What to install before
 - Install Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
