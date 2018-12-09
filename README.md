@@ -39,6 +39,7 @@ Run main.py (Expected output: attendance report and face images of each student 
 
 # 5. Comments
 
+- If you want to understand how an enrolled student is recognized in a session image, it is recommended to see the code of [facer-simple](https://github.com/domingomery/facer-simple)
 - To understand main.py: edit the file and read the comments, all functions are defined in utils.py
 - The demo uses FaceNet. If you want to run the demo using dlib see inputs in next section.
 - In line 80 of utils.py please include your path for facenet_keras.h5
